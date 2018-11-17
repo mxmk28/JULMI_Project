@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+
+
+  <header>
+
+    <div class="topbar">
+      <div class="logo">
+        <img src="static/logo.png">
+      </div>
+    </div>
+      <div class="nom">
+        <h1>JULMI</h1>
+      </div>
+
+      <style>
+        header {background-color: black;
+          color: white;
+          text-align: center}
+      </style>
+
+  </header>
+
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>julmi-project</title>
+  </head>
+
+  <body>
+  <style>
+    body {
+      background-color: black;
+    }
+  </style>
+    <div id="app">
+      <authentification></authentification>
+      <panier></panier>
+      <navigation>
+      </navigation>
+  <accueil></accueil>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+
+  <footer>
+    <style>
+      p {
+        background-color: red;
+        color: white;
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+    <p>Copyright © 2018 All rights reserved. Julia GAU & Michella MITSAKIS - ESIEA</p></footer>
+
+</html>
+<script>
+    import Accueil from "./src/components/Accueil";
+    export default {
+        components: {Accueil}
+    }
+</script>
+<script>
+    import Navigation from "./src/components/Navigation";
+    export default {
+        components: {Navigation}
+    }
+</script>
+<script>
+    import Panier from "./src/components/Panier";
+    export default {
+        components: {Panier}
+    }
+</script>
+<script>
+    import Panier from "./src/components/Panier";
+    export default {
+        components: {Panier}
+    }
+</script>
+<script>
+    import Authentification from "./src/components/Authentification";
+    export default {
+        components: {Authentification}
+    }
+</script>
